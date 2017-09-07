@@ -34,8 +34,9 @@ spotifyApi.clientCredentialsGrant()
 });
 
 
-app.get('/', (req, res) => {
+app.get('/', (req, res, next) => {
   res.render('index');
+  next(res.query)
 });
 
 
