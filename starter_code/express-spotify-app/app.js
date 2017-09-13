@@ -17,8 +17,8 @@ app.use(bodyParser.urlencoded({
 
 var SpotifyWebApi = require('spotify-web-api-node');
 
-var clientId = '768cc38921184612a70af965b367911b',
-    clientSecret = 'd383d23da69d40c3b579f934debce4d3';
+var clientId = 'xxxxx',
+    clientSecret = 'xxxxx';
 
 var spotifyApi = new SpotifyWebApi({
   clientId : clientId,
